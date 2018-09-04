@@ -3,30 +3,27 @@ using namespace std;
 
 int main()
 {
-   int check,n=0,c=0;
+   int flag,n=10001,c=0;
 
-   cout<<"Enter Prime Number you want to Find: ";
-   cin>>n;
-
-  for(int i=2;i<=1000;i++)
+  for(long int i=2;i<=10000000;i++)
   {
-    check=0;
+    flag=0;
 
-    for(int j=2;j<=i/2;j++)
+    for(long int j=2;j<=i/2;j++)
     {
         if(i%j==0)
         {
-          check=1;
+          flag=1;
            break;
         }
     }
 
-  if(check==0)
+  if(flag==0)
     c++;
 
       if(c==n)
      {
-      cout<<n  <<"th Prime Number is: " <<i;
+      cout<<"10001st Prime Number is: " <<i;
       break;
      }
  }
@@ -34,5 +31,6 @@ int main()
 return 0;
 
 }
+
 
 
