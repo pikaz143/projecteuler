@@ -4,7 +4,7 @@
 using namespace std;
 
 unsigned long int p=0;
-void pythagoreanTriplets(long int limit)
+void py(long int limit)
 {
     long int a, b, c = 0;
     long int m = 2;
@@ -27,7 +27,7 @@ void pythagoreanTriplets(long int limit)
 int main()
 {
      long int limit = 998;
-    pythagoreanTriplets(limit);
+    py(limit);
     printf("%lu",p);
     return 0;
 }
