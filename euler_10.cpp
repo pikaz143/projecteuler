@@ -21,6 +21,7 @@ int main()
     s=s+i;
     }
 
-    cout<<s;
+    cout<<(s+2);
     return 0;
 }
+
