@@ -20,7 +20,7 @@ public class euler10 {
 	    s=s+i;
 	    }
 
-	    System.out.println(s);
+	    System.out.println((s+2));
 
 	}
 
