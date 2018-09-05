@@ -5,8 +5,8 @@ int main()
 {
     int flag=0;
     unsigned long long int s=0;
-    unsigned long long int l=200000;
-    for(unsigned long long int i=1;i<=l;i++)
+    unsigned long long int l=2000000;
+    for(unsigned long long int i=3;i<l;i+=2)
     {
      flag=0;
         for(unsigned long long int j=2;j<=i/2;j++)
